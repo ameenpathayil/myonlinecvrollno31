@@ -1,0 +1,223 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(24, 114, 126);
+    font-family:;
+    font-family: 'Roboto', sans-serif;
+
+}
+* {
+    box-sizing: border-box;
+  }
+.container
+{
+    
+}
+/*========top==========*/
+
+.top
+{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    height:300px ;
+    padding: 20px;
+    position: relative;
+}
+image
+{
+    padding: 20px; 
+    width :30%;
+    
+}
+.image img
+{
+    height:250px;
+    width: auto;
+    position: absolute;
+    left:5%;
+} 
+.name
+{
+    width: auto;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+.name h1
+{
+    font-size: 35px;
+    margin-left: -6%;
+}
+.name h3
+{
+    margin-left: 6.5%;
+    color: #645e5e;
+}
+.name h4
+{
+color: #645e5e;
+margin-left: 35%;
+margin-top: -10px;
+}
+.name a
+{
+    text-decoration:none ;
+}
+.name ul
+{
+    margin-left: 3%;
+    margin-top: -10px;
+}
+
+.name ul li
+{
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+    text-shadow: 5px 5px 10px #28095a;
+}
+/*========center==========*/
+.center
+{
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+
+}
+/*========center left==========*/
+.left
+{
+    display: flex;
+    flex-direction: column;
+    width: 30p%;
+    background-color: yellow;
+    position: relative;
+    top: -20px;
+    padding: 30px;
+}
+.contacts
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.contacts ul li
+{
+    list-style-type:none;
+    padding: 10px;
+}   
+.contacts ul a
+{
+    text-decoration: none;
+    color: black;
+}
+.contacts ul a:hover
+{
+    color: blue;
+}
+
+.languages
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.languages ul li
+{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.skills
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.skills ul li
+{
+    list-style-type: none;
+    padding: 10px;
+}
+
+/*========center right==========*/
+.right
+{
+  width: auto;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.aboutme
+{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+}
+.education
+{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+}
+.education ul li 
+{
+    font-weight: bold;
+    font-size: 17px;
+    list-style-type: none;
+}
+.education ul li dl
+{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.certificates
+{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+}
+.certificates ul a
+{
+    text-decoration: none;
+    color: black;
+}
+.certificates ul a:hover
+{
+    color: blue;
+}
+.certificates ul li 
+{
+    list-style-type:none;
+    padding: 10px;
+    
+}
+.experiance
+{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+}
+.experiance ul li 
+{
+    font-weight: bold;
+    font-size: 17px;
+    list-style-type: none;
+}
+.experiance ul li dl
+{
+    font-size: 12px;
+    font-weight: lighter;
+}
